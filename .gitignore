@@ -1,0 +1,7 @@
+# Ignore node_modules (common in Node.js projects)
+node_modules/
+
+# Ignore environment files
+.env
+
+discloud.config
