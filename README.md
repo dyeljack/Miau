@@ -24,3 +24,22 @@ Meimei is a multi-purpose Discord bot with a cat persona 😼. She moderates you
 
 ---
 
+1. Clone the project
+git clone https://github.com/yourusername/meimei-bot.git
+cd miau-main
+
+2. Install dependencies
+npm install
+
+3. Create a .env file
+   In the root folder, create a file named .env and add:
+   
+   DISCORD_BOT_TOKEN=your_discord_bot_token
+   WEATHER_KEY=your_openweathermap_api_key
+
+▶️ Running the Bot
+npm run start
+or 
+npm run dev (to run with nodemon)
+
+
