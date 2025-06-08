@@ -25,7 +25,7 @@ Meimei is a multi-purpose Discord bot with a cat persona 😼. She moderates you
 ---
 
 1. Clone the project
-git clone https://github.com/yourusername/meimei-bot.git
+git clone https://github.com/dyeljack/Miau.git
 cd miau-main
 
 2. Install dependencies
