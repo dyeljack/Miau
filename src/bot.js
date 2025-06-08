@@ -33,7 +33,7 @@ client.on("messageCreate", async (message) => {
       }
       if (args.length === 0) return message.reply("kick what?");
       const member = message.mentions.members.first();
-      if (member.id === message.author.id) return message.reply("you tagged yourself dumbass nigga");
+      if (member.id === message.author.id) return message.reply("you tagged yourself");
       if (member) {
         member
           .kick()
@@ -53,7 +53,7 @@ client.on("messageCreate", async (message) => {
       if (args.length === 0) return message.reply("Ban what?");
       try {
         const member = message.mentions.members.first();
-        if (member === message.author.id) return message.reply("you tagged yourself dumbass nigga");
+        if (member === message.author.id) return message.reply("you tagged yourself");
         await member.ban();
         message.channel.send(`${member} was banned`);
         message.channel.send("https://tenor.com/view/ripbozo-rip-bozo-rest-in-piss-packwatch-james-worthy-gif-6906351621115625331");
@@ -80,7 +80,7 @@ client.on("messageCreate", async (message) => {
       }
       if (!args[1]) args[1] = '1m';
       const member = message.mentions.members.first();
-      if (member.id === message.author.id) return message.reply("you tagged yourself dumbass nigga");
+      if (member.id === message.author.id) return message.reply("you tagged yourself");
       const timeUnits = {
         d: 86400000, // days
         h: 3600000, // hours
@@ -107,7 +107,7 @@ client.on("messageCreate", async (message) => {
       }
       if (args.length === 0) return message.reply("unmute what?");
       const member = message.mentions.members.first();
-      if (member.id === message.author.id) return message.reply("you tagged yourself dumbass nigga");
+      if (member.id === message.author.id) return message.reply("you tagged yourself");
       member.disableCommunicationUntil(null)
         .then(() => {
           message.channel.send(`unmuted ${member}`);
