@@ -1,7 +1,6 @@
 # 🐾 Meimei — The Cat Discord Bot
 
 Meimei is a multi-purpose Discord bot with a cat persona 😼. She moderates your server and brings some fun interactions! Built using `discord.js`, Meimei supports moderation commands, weather reports, air quality info, and definitions from Urban Dictionary.
-
 ---
 
 ## 🛠️ Features
@@ -21,7 +20,6 @@ Meimei is a multi-purpose Discord bot with a cat persona 😼. She moderates you
 
 - 🐱 **Fun Commands**
   - Replies with random cat GIFs or catchphrases when users say "meow" or "miau"
-
 ---
 
 1. Clone the project
@@ -32,14 +30,16 @@ cd miau-main
 npm install
 
 3. Create a .env file
-   In the root folder, create a file named .env and add:
-   
+   In the root folder, create a file named .env and add:   
    DISCORD_BOT_TOKEN=your_discord_bot_token
    WEATHER_KEY=your_openweathermap_api_key
 
 ▶️ Running the Bot
-npm run start
-or 
+
+npm run start        
+
+or   
+
 npm run dev (to run with nodemon)
 
 
