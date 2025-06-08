@@ -7,11 +7,11 @@ const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent, // Needed if you're reading message content
+    GatewayIntentBits.MessageContent, 
   ],
 });
 client.on('ready', () => {
-  console.log("succesfully logged in3");
+  console.log("succesfully logged in");
 })
 
 const PREFIX = "$";
@@ -31,6 +31,7 @@ client.on("messageCreate", async (message) => {
     // ignore own messages
     if (message.author.bot) {
       return;
+
     }
     //kick,ban,mute, etc.
     if (message.content.startsWith(PREFIX)) {
@@ -51,6 +52,7 @@ client.on("messageCreate", async (message) => {
               message.channel.send("https://tenor.com/view/ripbozo-rip-bozo-rest-in-piss-packwatch-james-worthy-gif-6906351621115625331")
             })
             .catch((err) => message.channel.send("⚠️unable to kick that user"));
+
         }
         else { message.reply("Member not found"); }
       }
