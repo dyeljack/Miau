@@ -22,28 +22,30 @@ Meimei is a multi-purpose Discord bot with a cat persona 😼. She moderates you
   - Replies with random cat GIFs or catchphrases when users say "meow" or "miau"
 ---
 
-1. Clone the project
-git clone https://github.com/dyeljack/Miau.git
+1. Clone the project:
 
-cd miau-main
+   git clone https://github.com/dyeljack/Miau.git
 
-3. Install dependencies
+   cd miau-main
 
-npm install
+3. Install dependencies:
 
-5. Create a .env file
+    npm install
+
+5. Create a .env file:
+   
    In the root folder, create a file named .env and add:
    
    DISCORD_BOT_TOKEN=your_discord_bot_token
    
    WEATHER_KEY=your_openweathermap_api_key
 
-▶️ Running the Bot
+ 4. Running the Bot:
 
-npm run start        
+    npm run start        
 
-or   
-
-npm run dev (to run with nodemon)
+       or
+    
+    npm run dev (to run with nodemon)
 
 
