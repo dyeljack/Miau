@@ -266,7 +266,6 @@ client.on("messageCreate", async (message) => {
     const triggers = new Map([
       ["miau", meowTriggers[miauTrigger]],
       ["meow", meowTriggers[miauTrigger]],
-      ["condom", `<@1210490875340136451>`]
     ]);
     // specific reply loop
     const lowercontent = message.content.toLowerCase();
