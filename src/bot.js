@@ -123,7 +123,7 @@ client.on("messageCreate", async (message) => {
           .then(() => {
             message.channel.send(`unmuted ${member}`);
           })
-          .catch((err) => message.channel.send("enable to unmute, deal with it 😹"));
+          .catch((err) => message.channel.send("unable to unmute, deal with it 😹"));
       }
       //avatar view
       if (CMD_NAME === "av") {
